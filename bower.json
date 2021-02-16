@@ -1,8 +1,8 @@
 {
-  "name": "themeix",
+  "name": "dovera",
   "description": "Quick start gulp package for all web developers",
   "authors": [
-    "Themeix, themeix lab"
+    "Dovera Insights"
   ],
   "dependencies": {
     "jquery": "^3.3.1",

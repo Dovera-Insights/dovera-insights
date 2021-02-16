@@ -900,55 +900,6 @@ input[type='submit'] {
 
 /* ==============================================
 
-5. Shape  Animation
-
-============================================== */
-.themeix-ani .shape-one {
-  position: absolute;
-  left: 9%;
-  top: 28%;
-  -webkit-animation: animationFramesOne 25s alternate infinite linear;
-          animation: animationFramesOne 25s alternate infinite linear; }
-
-.themeix-ani .shape-two {
-  position: absolute;
-  left: 38%;
-  bottom: 25%;
-  -webkit-animation: animationFramesTwo 35s alternate infinite linear;
-          animation: animationFramesTwo 35s alternate infinite linear; }
-
-.themeix-ani .shape-tree {
-  position: absolute;
-  bottom: 60%;
-  right: 10%;
-  -webkit-animation: animationFramesFour  20s infinite linear;
-          animation: animationFramesFour  20s infinite linear; }
-
-.themeix-ani .shape-four {
-  position: absolute;
-  bottom: 10%;
-  right: 40%;
-  -webkit-animation: rotated  20s infinite linear;
-          animation: rotated  20s infinite linear; }
-
-.themeix-ani .shape-five {
-  position: absolute;
-  bottom: 20%;
-  left: 10%;
-  -webkit-animation: animationFramesFive  20s infinite linear;
-          animation: animationFramesFive  20s infinite linear; }
-
-.themeix-ani .shape-six {
-  position: absolute;
-  -webkit-animation: rotated  50s infinite linear;
-          animation: rotated  50s infinite linear; }
-
-@media (max-width: 768px) {
-  .themeix-ani {
-    display: none; } }
-
-/* ==============================================
-
 6. Header Area
 
 ============================================== */
@@ -1122,8 +1073,11 @@ input[type='submit'] {
   .header-nav .themeix-navbar {
     padding: 0; }
   .header-nav .header-logo {
-    padding: 15px 0;
+    padding: 8px 0;
     float: left; }
+  .header-nav .header-logo a {
+    color: white !important;
+    font-size: 24px; }
   .header-nav .themeix-navbar {
     float: right; }
     @media (min-width: 768px) and (max-width: 992px) {
@@ -2656,14 +2610,14 @@ input[type='submit'] {
     bottom: -40px;
     left: -40px; }
     .footer-shape .left img {
-      z-index: 3;
+      z-index: 1;
       position: relative; }
   .footer-shape .right {
     position: absolute;
     right: -40px;
     bottom: -40px; }
     .footer-shape .right img {
-      z-index: 3;
+      z-index: 1;
       position: relative; }
   @media (max-width: 768px) {
     .footer-shape {
