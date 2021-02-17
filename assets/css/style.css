@@ -2528,10 +2528,13 @@ input[type='submit'] {
 
 .footer-logo {
   margin-bottom: 15px;
-  display: block; }
+  display: block;
+  color: white; }
   .footer-logo img {
     position: relative;
     z-index: 3; }
+  .footer-logo:hover {
+    color: white; }
 
 .footer-widget {
   margin-bottom: 30px;

@@ -2283,11 +2283,14 @@ button{
 .footer-logo{
 	margin-bottom:15px;
 	display:block;
-	
+	color: white;
 	img{
 	    position:relative;
 		z-index:3;
-	}
+  }
+  &:hover {
+    color: white;
+  }
 }
 .footer-widget{
     margin-bottom:$inner-30;
