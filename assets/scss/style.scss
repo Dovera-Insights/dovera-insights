@@ -221,7 +221,7 @@ input[type='submit'] {
     position: relative;
     bottom: 9px;
 	h2{
-		margin-bottom:$inner-60;
+		margin-bottom:$inner-20;
 		font-weight:$font-weight-semibold;
 		
 		@include tablet{
@@ -1514,7 +1514,7 @@ input[type='submit'] {
 	.post-img{
 		img{
 			width:100%;
-			max-height:400px;
+			max-height: 300px;
 			border-radius:4px;
 			object-fit: cover;
 		}
@@ -1530,7 +1530,7 @@ input[type='submit'] {
 		background-color:$bg-color1;
 		width:calc(100% - 60px);
 		top:0;
-		right:-30px;
+    right:-30px;
 		margin-top:-150px;
 		
 		@include tablet{
@@ -1539,6 +1539,7 @@ input[type='submit'] {
 			width: 100%;
 			margin-top: 20px;
 			padding: 30px 15px;
+      right: 0;
 		}
 		@include laptop{
 		     margin: 0;
@@ -1546,13 +1547,15 @@ input[type='submit'] {
 			width: 100%;
 			margin-top: 15px;
 			padding: 30px 15px;
+      right: 0;
 		}	
 		@include desktop{
-		 		     margin: 0;
+      margin: 0;
 			position: relative;
 			width: 100%;
 			margin-top: 15px;
 			padding: 30px 15px;
+      right: 0;
 		}
 		&:hover{
 		   box-shadow:$box-shadow;

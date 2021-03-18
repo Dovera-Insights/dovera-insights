@@ -1,18 +1,9 @@
-- title: Responsive Design
-  description: Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
-  image: assets/images/service-icon5.png
-- title: Bootstrap 4.x
-  description: Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
-  image: assets/images/service-icon2.png
-- title: Browser Support
-  description: Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
-  image: assets/images/service-icon.png
-- title: 500+ Icon Fonts
-  description: Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
-  image: assets/images/service-icon4.png
-- title: Creative Design
-  description: Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
-  image: assets/images/service-icon6.png
-- title: More Features
-  description: Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
-  image: assets/images/service-icon3.png
+- title: Trust & Credibility
+  description: 85% of people trust online reviews as much as personal recommendations
+  image: assets/images/shield.png
+- title: Customer Acquisition
+  description: 94% of consumers report positive reviews make them more likely to use a business 
+  image: assets/images/acquisition.png
+- title: Higher Revenue
+  description: Increasing a review rating by 1-star could mean a 5-9% increase in revenue
+  image: assets/images/revenue.png
