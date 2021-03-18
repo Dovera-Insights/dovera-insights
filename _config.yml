@@ -16,7 +16,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Dovera Insights - A look into your customer reputation.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://doverainsights.com/" # the base hostname & protocol for your site, e.g. http://example.com
-appurl: "https://app.doverainsights.com"
+app_url: "https://app.doverainsights.com"
 twitter_username: 
 github_username:
 logo: "/assets/images/header-logo.png"

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "7Seven various ways to do design."
-date: 2019-01-07 15:12:09 +0600
+title: "10Seven various ways to do design."
+date: 2019-01-10 15:12:09 +0600
 tags: [design, html5]
 categories: [jekyll]
 author: monica
