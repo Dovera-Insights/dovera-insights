@@ -9,25 +9,33 @@ author: derek
 
 ## What Is Online Reputation Management?
 
-Online reputation management (ORM) is a combination of online reviews, social media conversations, and search engine optimization.  These  are used to promote .
+Online reputation management (ORM) is a combination of online reviews, social media conversations, and search engine optimizations.  
 
-## Why Are Online Reviews So Important?
+As the trend for finding products and services online continues to grow so does the amount
+of people sharing their experience with those products and services.  
 
-As the trend for finding products and services online continues to grow, so does the amount
-of people sharing their opinions of those products and services.  Review sites make it easy for a customer to express how the felt about a business and others are listening!  Over 8 in 10 customers trust online reviews as it they were from close friends.  This makes having an ORM strategy in place.  Here is a few items of how managaing your reputation can help out.
+Review sites make it easier than ever for a customer to express how he or she feels about a business and others are listening!  Over 8 in 10 customers trust online reviews as it they were from close friends.  
+
+This makes having an online reputation strategy important to helping keep current customers happen and enabling you to grow your business.  Here are a few items of how managaing your reputation can help out.
 
 ### 1. Search Engine Ranking
 
-Search engines have started to use reviews as a way to rank websites
+Search engines have started to use reviews as a way to help rank websites.  
+
+Research has shown a positive correlation between the number of reviews, responses, and negative reviews a business has and how it shows up in a local search.
 
 ### 2. Customer Acquisition
 
-Customers are more likely to use a company with reviews
+The internet is becoming the first place people go when looking for a new product or service.  
+
+With so many options available to consumers they are having to relay on others for their opinions and as it turns out over 90% of consumers report positive reviews make them more likely to use a business.
 
 ### 3. Social Proof
 
-You can use these reviews a awy to brag about your bran
+Having online reviews and positive customer feedback gives you some bragging rights.  
 
-## How is your reputation?
+It is easy to share these review statics on your company's website as proof you provide an excellent product or service.
 
-Have you every checked to see how your reputation is?
+### How is your reputation?
+
+Have you checked to see what your reputation is lately?  If not, now would be a great time to Google your business and see what people are saying.
