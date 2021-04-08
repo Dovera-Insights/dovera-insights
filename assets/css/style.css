@@ -1911,8 +1911,7 @@ input[type='submit'] {
     background-color: #ffffff;
     width: calc(100% - 60px);
     top: 0;
-    right: -30px;
-    margin-top: -150px; }
+    right: -30px; }
     @media (max-width: 768px) {
       .blog-post .post-content {
         margin: 0;
