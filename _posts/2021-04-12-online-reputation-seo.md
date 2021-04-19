@@ -21,9 +21,9 @@ Once on your website they will learn more about what your company has to offer.
 
 Demonstrating online reviews on the website will also provide evidence and social proof to the level of service a new customer will receive.
 
-### 2. My Google Business
+### 2. Google My Business
 
- My Google Business is a service provided by Google to help users find businesses when doing local searches. Having solid positive reviews helps your business show higher in the results being displayed.
+ Google My Business is a service provided by Google to help users find businesses when doing local searches. Having solid positive reviews helps your business show higher in the results being displayed.
 
 Making your business information available to potential customers helps provide them context when making they are making a decision. A few things you will want to include in your business listing are:
 
