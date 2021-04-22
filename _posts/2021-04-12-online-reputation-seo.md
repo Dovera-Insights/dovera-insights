@@ -7,7 +7,7 @@ categories: [Reputation Management]
 author: derek
 ---
 
-## Online Reputation Managment And SEO
+## Online Reputation Management And SEO
 
 Online reputation management can have a positive impact on your search engine optimizations but it can also be unfavorable for businesses who have negative reviews or even worse a lack of any reputation.
 
@@ -15,17 +15,17 @@ Here are a few steps you can take to make sure your reputation stays positive an
 
 ### 1. Front Page Of A Search Engine
 
-Being on the front page of a search engine for keywords a potiential customers uses to find your product or service greatly increases the chance they will click on your website.
+Being on the front page of a search engine for keywords a potential customers uses to find your product or service greatly increases the chance they will click on your website.
 
-Once on your website they will learn more about what your company has to offer.  
+Once on your website they will learn more about what your company has to offer.
 
 Demonstrating online reviews on the website will also provide evidence and social proof to the level of service a new customer will receive.
 
 ### 2. Google My Business
 
- Google My Business is a service provided by Google to help users find businesses when doing local searches. Having solid positive reviews helps your business show higher in the results being displayed.
+Google My Business is a service provided by Google to help users find businesses when doing local searches. Having solid positive reviews helps your business show higher in the results being displayed.
 
-Making your business information available to potential customers helps provide them context when making they are making a decision. A few things you will want to include in your business listing are:
+Making your business information available to potential customers helps provide them context when they are making a decision. A few things you will want to include in your business listing are:
 
 * The business's location
 * The times the business open
@@ -41,6 +41,6 @@ This is a perfect chance to reach out to unhappy customers with compassion and e
 
 ## When To Start?
 
-There is no better time than the present to look at how your business is currently handling its online reputation. By using these three points as a guide on areas with the biggest impact, take one topic at a time, improve upon it, and move to the next.  
+There is no better time than the present to look at how your business is currently handling its online reputation. By using these three points as a guide on areas with the biggest impact, take one topic at a time, improve upon it, and move to the next.
 
 I am excited to see how small steps can help grow your business!
