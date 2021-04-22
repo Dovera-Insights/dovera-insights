@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Handle Negative Reviews"
-date: 2021-04-12
+date: 2021-04-22
 tags: [Online Reviews, Online Reputation, Reputation Management, Negative Reviews, Reviews]
 categories: [Online Reviews]
 author: derek
