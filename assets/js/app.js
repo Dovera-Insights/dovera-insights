@@ -208,8 +208,10 @@
     }
 
     if (event.currentTarget.name === 'request-demo-send') {
+      event.preventDefault();
       postToThirdPary($form[0], 'request-demo');
     } else if (event.currentTarget.name === 'contact-send-message') {
+      event.preventDefault();
       postToThirdPary($form[0], 'contact');
     }
   }
@@ -218,10 +220,6 @@
 
   if ($form.length > 0) {
     $('form button[type="submit"]').bind('click', function (event) {
-      if (event) {
-        event.preventDefault();
-      }
-
       whichForm(event, $form);
     });
   }
