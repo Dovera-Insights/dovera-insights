@@ -2230,6 +2230,33 @@ button{
 
 ============================================== */
 
+#mc_embed_signup {
+  color: #fff;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+
+  form {
+    padding: 0!important;
+  }
+
+  #mce-success-response,
+  #mce-error-response {
+    color: white!important;
+    margin-top: 0;
+    
+    a {
+      color: white;
+      text-decoration: underline;
+    }
+  }
+
+  input, button {
+    border: none!important;
+    width: 100%!important;
+    margin-left: 0!important;
+  }
+}
+
 .scrollToTop {
     margin: 0 15px 15px 0;
     text-align: center;

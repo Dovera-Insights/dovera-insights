@@ -3,78 +3,95 @@ layout: page
 title: Contact Page
 ---
 <div class="contact-area bg-color1 p-t-130 p-b-130">
-   <div class="container">
-      <div class="row m-b-60">
-         <div class="col-md-4">
-            <div class="contact-info">
-               <div class="info-logo"><img src="{{site.baseurl}}/assets/images/contact-info-logo.png" alt="contact info logo"/></div>
-               <div class="info-content">
-                  <h5 class="heading-5"><a href="#">Office Address</a></h5>
-                  <p>{{site.address}}</p>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-4">
-            <div class="contact-info">
-               <div class="info-logo"><img src="{{site.baseurl}}/assets/images/contact-info-logo2.png" alt="contact info logo"/></div>
-               <div class="info-content">
-                  <h5 class="heading-5"><a href="#">Email Address</a></h5>
-                  <p><a href="#">{{site.email}}</a></p>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-4">
-            <div class="contact-info m-0">
-               <div class="info-logo"><img src="{{site.baseurl}}/assets/images/contact-info-logo3.png" alt="contact info logo"/></div>
-               <div class="info-content">
-                  <h5 class="heading-5"><a href="#">Phone Number</a></h5>
-                  <p>{{site.phone}}</p>
-               </div>
-            </div>
-         </div>
+  <div class="container">
+    <div class="row m-b-60">
+      <div class="col-md-4">
+        <div class="contact-info">
+          <div class="info-logo"><img src="{{site.baseurl}}/assets/images/contact-info-logo.png"
+              alt="contact info logo" /></div>
+          <div class="info-content">
+            <h5 class="heading-5"><a href="#">Office Address</a></h5>
+            <p>{{site.address}}</p>
+          </div>
+        </div>
       </div>
-      <div class="row">
-         <div class="col-md-7">
-            <div class="comment-form">
-               <div class="inner-title">
-                  <h5 class="heading-5">Send Your Message</h5>
-               </div>
-               <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
+      <div class="col-md-4">
+        <div class="contact-info">
+          <div class="info-logo"><img src="{{site.baseurl}}/assets/images/contact-info-logo2.png"
+              alt="contact info logo" /></div>
+          <div class="info-content">
+            <h5 class="heading-5"><a href="#">Email Address</a></h5>
+            <p><a href="#">{{site.email}}</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="contact-info m-0">
+          <div class="info-logo"><img src="{{site.baseurl}}/assets/images/contact-info-logo3.png"
+              alt="contact info logo" /></div>
+          <div class="info-content">
+            <h5 class="heading-5"><a href="#">Phone Number</a></h5>
+            <p>{{site.phone}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-7">
+        <div class="comment-form">
+          <div class="inner-title">
+            <h5 class="heading-5">Send Your Message</h5>
+          </div>
+          <form action="{{site.form-keep}}"
+                    accept-charset="UTF-8"
+                    enctype="multipart/form-data"
+                    method="POST" name="mc-embedded-contact-form" class="wj-contact-form validate" novalidate>
+                    <input type="hidden" name="utf8" value="✓">
+            <input type="hidden" name="utf8" value="✓">
+            <div class="form-row">
+              <div class="col-md-12">
                 <div class="form-row">
-                     <div class="col-md-12">
-                        <div class="form-row">
-                           <div class="col-md-12">
-                              <div class="form-group">
-                                 <input type="text" class="form-control" id="email" placeholder="Your Email" required>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="form-row">
-                           <div class="col-md-12">
-                              <div class="form-group">
-                                 <input type="text" class="form-control" id="name" placeholder="Your Name" required>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="form-row">
-                           <div class="col-md-12">
-                              <div class="form-group">
-                                 <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="form-group m-0">
-                           <button type="submit" class="btn-submit mt-2">Send Message</button>
-                        </div>
-                     </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                      <div id='contact-email-required-error' style='color: red; display: none'>
+                        Email is required
+                      </div>
+                    </div>
                   </div>
-               </form>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <textarea class="form-control" id="message" name="message" rows="5" placeholder="Your Message"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group m-0">
+                  <button type="submit" class="btn-submit mt-2" name="contact-send-message">Send Message</button>
+                </div>
+                <div id="contact-success" style='color: green; display: none'>
+                  We will be in touch shortly!
+                </div>
+                <div id="contact-failed" style='color: rgb(241, 103, 103); display: none'>
+                  Unexpected error occured. Please send an email to hello@doverainsights.com
+                </div>
+              </div>
             </div>
-         </div>
-         <div class="col-md-4 offset-md-1">
-            <div class="contact-image"><img src="{{site.baseurl}}/assets/images/contact-image.png" alt="contact image"/></div>
-         </div>
+          </form>
+        </div>
       </div>
-   </div>
+      <div class="col-md-4 offset-md-1">
+        <div class="contact-image"><img src="{{site.baseurl}}/assets/images/contact-image.png" alt="contact image" />
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-

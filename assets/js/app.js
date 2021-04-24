@@ -176,5 +176,53 @@
     }
   });
 
+  function register($form) {
+    return $.ajax({
+      type: $form.method,
+      url: $form.action,
+      data: $($form).serialize(),
+      cache: false,
+      contentType: "application/x-www-form-urlencoded"
+    });
+  }
 
+  function postToThirdPary($selectedForm, formName) {
+    if ($selectedForm.checkValidity()) {
+      $(`#${formName}-email-required-error`).hide();
+      register($selectedForm)
+        .then(() => {
+          $(`#${formName}-success`).show();
+          $selectedForm.reset();
+        })
+        .catch(() => {
+          $(`#${formName}-failed`).show();
+        });
+    } else {
+      $(`#${formName}-email-required-error`).show();
+    }
+  }
+
+  function whichForm(event, $form) {
+    if (!event || !event.currentTarget) {
+      return;
+    }
+
+    if (event.currentTarget.name === 'request-demo-send') {
+      postToThirdPary($form[0], 'request-demo');
+    } else if (event.currentTarget.name === 'contact-send-message') {
+      postToThirdPary($form[0], 'contact');
+    }
+  }
+
+  var $form = $('form');
+
+  if ($form.length > 0) {
+    $('form button[type="submit"]').bind('click', function (event) {
+      if (event) {
+        event.preventDefault();
+      }
+
+      whichForm(event, $form);
+    });
+  }
 }(jQuery));
