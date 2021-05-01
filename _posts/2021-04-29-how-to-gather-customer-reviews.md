@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "How to Manage Customer Reviews"
+title: "How to Gather Customer Reviews"
 date: 2021-04-29
-tags: [Online Reviews, Customer Reviews, Manage, Manage Customer Reviews]
+tags: [Online Reviews, Customer Reviews, Gather Customer Reviews]
 categories: [Online Reviews]
 author: derek
 ---
