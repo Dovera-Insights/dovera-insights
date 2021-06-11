@@ -322,17 +322,17 @@ input[type='submit'] {
 	}
   }
   .header-banner{
-     padding:180px 50px 0px 0px;
+     padding:50px 50px 0px 0px;
 	 z-index: 3;
      position: relative;
 	 @include desktop{
-	    padding:100px 0px 0px 0px;
+	    padding:50px 0px 0px 0px;
 	 } 
 	 @include laptop{
-	    padding:40px 0px 100px 0px;
+	    padding:50px 0px 100px 0px;
 	 }
 	 @include tablet{
-	    padding:60px 0px 80px 0px;
+	    padding:50px 0px 80px 0px;
 	 }
   }
   @include desktop{
@@ -2432,10 +2432,14 @@ button{
 	}
 }
 
-
-
-
-
+.list-inline-item {
+  .fa-facebook,
+  .fa-linkedin,
+  .fa-twitter-square,
+  .fa-youtube-square {
+    font-size: 50px;
+  }
+}
 
 .swiper-slide-duplicate-prev img {
     border: 11px solid #fff;
