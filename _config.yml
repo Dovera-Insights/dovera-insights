@@ -6,14 +6,14 @@
 
 # Site settings
 
-title: "Dovera Insights"
+title: "Dovera Insights - A look into your customer reputation."
 company: "Dovera Insights"
 business: "Thinkovator, Inc"
 email: "hello@doverainsights.com"
 phone: "515-306-1641"
 address: "West Des Moines, IA, 50265"
 description: >- # this means to ignore newlines until "baseurl:"
-  Dovera Insights - A look into your customer reputation.
+  Dovera Insights is a comprehensive platform for customer experience that offers a range of tools for businesses to gain valuable insight from customers to serve them better and increase the ROI.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://doverainsights.com/" # the base hostname & protocol for your site, e.g. http://example.com
 app_url: "https://app.doverainsights.com"
