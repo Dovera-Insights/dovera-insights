@@ -1,58 +1,90 @@
 <!-- ==================== Start Price Plan Area  ========================= -->
 <section class="price-plan-area bg-image2 p-t-100 p-b-100" id="pricing">
-<div class="container">
+  <div class="container">
     <div class="price-plan-wrapper">
-        <div class="row">
-            <div class="col-md-4">
-            <div class="price-plan-title">
-                <h2 class="big-font2">Pricing Plans</h2>
-                <p>Tiered subscription plans provide a fit for any budget based on business needs and customer insight goals. All plans include unlimited campaigns and unlimited customers.</p>
-            </div>
-            </div>
-            <div class="col-md-4">
-            <div class="price-plan-box" data-aos="fade-up">
-                <div class="price-title text-center d-flex align-items-center">
-                    <div class="price-curency">
-                        <p><sup>$</sup>99</p>
-                    </div>
-                    <div class="price-package d-flex align-items-center justify-content-center">
-                        <p>Monthly Package</p>
-                    </div>
-                </div>
-                <div class="price-content text-center">
-                    <ul class="price-list list-inline">
-                        <li>Unlimited Campaigns</li>
-                        <li>Unlimited Customers</li>
-                        <li>5,000 Emails Per Month</li>
-                        <li>500 Texts Per Month</li>
-                    </ul>
-                    <a href="{{site.app_url}}/signup?plan=99" class="price-btn btn btn-primary">Sign Up</a>
-                </div>
-            </div>
-            </div>
-            <div class="col-md-4">
-            <div class="price-plan-box m-t-80" data-aos="fade-up">
-                <div class="price-title text-center">
-                    <div class="price-curency">
-                        <p><sup>$</sup>999</p>
-                    </div>
-                    <div class="price-package d-flex align-items-center justify-content-center">
-                        <p>Yearly Package</p>
-                    </div>
-                </div>
-                <div class="price-content text-center">
-                    <ul class="price-list list-inline">
-                      <li>Unlimited Campaigns</li>
-                      <li>Unlimited Customers</li>
-                      <li>7,500 Emails Per Month</li>
-                      <li>750 Texts Per Month</li>
-                    </ul>
-                    <a href="{{site.app_url}}/signup?plan=999" class="price-btn btn btn-primary">Sign Up</a>
-                </div>
-            </div>
-            </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="price-plan-title">
+            <h2 class="big-font2">Pricing Plans</h2>
+            <p>Tiered subscription plans provide a fit for any budget based on business needs and customer insight
+              goals. All plans include unlimited campaigns and unlimited customers.</p>
+          </div>
         </div>
+      </div>
+      <div class="row m-b-30">
+        <div class="col text-center">
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <button id="price-monthly-toggle" type="button" class="btn btn-primary active">Monthly</button>
+            <button id="price-yearly-toggle" type="button" class="btn inactive-toggle">Yearly (save 20%)</button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="price-plan-box" data-aos="fade-up">
+            <div class="price-title text-center d-flex align-items-center">
+              <div class="price-curency">
+                <p>Free</p>
+              </div>
+              <div class="price-package d-flex align-items-center justify-content-center">
+                <p>14-Day Trial</p>
+              </div>
+            </div>
+            <div class="price-content text-center">
+              <ul class="price-list list-inline">
+                <li>1 Campaign</li>
+                <li>100 Customers</li>
+                <li>Up to 100 Emails</li>
+                <li><s>500 Texts</s></li>
+              </ul>
+              <a href="{{site.app_url}}/signup" class="price-btn btn btn-primary">Sign Up</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="price-plan-box" data-aos="fade-up">
+            <div class="price-title text-center d-flex align-items-center">
+              <div class="price-curency">
+                <p id="price-basic"><sup>$</sup>49</p>
+              </div>
+              <div class="price-package d-flex align-items-center justify-content-center">
+                <p>Basic Package</p>
+              </div>
+            </div>
+            <div class="price-content text-center">
+              <ul class="price-list list-inline">
+                <li>Unlimited Campaigns</li>
+                <li>Unlimited Customers</li>
+                <li>1,000 Emails Per Month</li>
+                <li><s>500 Texts</s></li>
+              </ul>
+              <a href="{{site.app_url}}/signup" class="price-btn btn btn-primary">Sign Up</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="price-plan-box" data-aos="fade-up">
+            <div class="price-title text-center d-flex align-items-center">
+              <div class="price-curency">
+                <p id="price-business"><sup>$</sup>99</p>
+              </div>
+              <div class="price-package d-flex align-items-center justify-content-center">
+                <p>Business Package</p>
+              </div>
+            </div>
+            <div class="price-content text-center">
+              <ul class="price-list list-inline">
+                <li>Unlimited Campaigns</li>
+                <li>Unlimited Customers</li>
+                <li>5,000 Emails Per Month</li>
+                <li>500 Texts Per Month</li>
+              </ul>
+              <a href="{{site.app_url}}/signup" class="price-btn btn btn-primary">Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
 </section>
 <!-- ==================== End Price Plan Area  ========================= -->

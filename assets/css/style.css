@@ -873,6 +873,11 @@ input[type='submit'] {
        object-fit: contain;
     float: left; }
 
+.inactive-toggle {
+  color: #2e75d8;
+  background-color: #fff;
+  border: 1px solid #2e75d8; }
+
 /* ==============================================
 
 4. Section & Inner Title

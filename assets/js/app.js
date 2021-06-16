@@ -174,6 +174,24 @@
         return false;
       }
     }
+ });
+  
+  $('#price-monthly-toggle').on('click', () => {
+    $('#price-monthly-toggle').removeClass('inactive-toggle');
+    $('#price-monthly-toggle').addClass('btn-primary active');
+    $('#price-yearly-toggle').removeClass('btn-primary active');
+    $('#price-yearly-toggle').addClass('inactive-toggle');
+    $('#price-basic').html('<sup>$</sup>49');
+    $('#price-business').html('<sup>$</sup>99');
+  });
+
+  $('#price-yearly-toggle').on('click', () => {
+    $('#price-monthly-toggle').addClass('inactive-toggle');
+    $('#price-monthly-toggle').removeClass('btn-primary active');
+    $('#price-yearly-toggle').addClass('btn-primary active');
+    $('#price-yearly-toggle').removeClass('inactive-toggle');
+    $('#price-basic').html('<sup>$</sup>499');
+    $('#price-business').html('<sup>$</sup>999');
   });
 
   function register($form) {
