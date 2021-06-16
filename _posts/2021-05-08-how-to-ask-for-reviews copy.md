@@ -65,4 +65,4 @@ With these three do’s and don’ts it should help increase open rates, get fee
 
 With a bit of practice and a little testing to find the right message, getting those reviews is within reach!
 
-[email-subject-line-ideas]: {{site.url}}/email-subject-line-ideas
+[email-subject-line-ideas]: {{site.url}}/subject-lines-to-help-get-reviews
