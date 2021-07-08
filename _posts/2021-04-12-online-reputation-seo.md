@@ -2,8 +2,8 @@
 layout: post
 title: "How Online Reputation Management Improves SEO"
 date: 2021-04-12
-tags: [ORM, Online Reputation, Reputation Management, SEO]
-categories: [Reputation Management]
+tags: [ORM, Online-Reputation, Reputation-Management, SEO]
+categories: [Reputation-Management]
 author: derek
 ---
 

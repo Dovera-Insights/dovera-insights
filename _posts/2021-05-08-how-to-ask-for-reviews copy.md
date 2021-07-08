@@ -2,8 +2,8 @@
 layout: post
 title: "How to Ask for Reviews"
 date: 2021-05-08
-tags: [Online Reviews, Customer Reviews, Ask For Reviews]
-categories: [Online Reviews]
+tags: [How-To, Gathering-Reviews]
+categories: [Online-Reviews]
 author: derek
 ---
 

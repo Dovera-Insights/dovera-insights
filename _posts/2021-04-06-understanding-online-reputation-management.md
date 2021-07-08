@@ -2,8 +2,8 @@
 layout: post
 title: "Understanding Online Reputation Management"
 date: 2021-04-05
-tags: [ORM, Online Reputation, Reputation Management]
-categories: [Reputation Management]
+tags: [ORM, Online-Reputation, Reputation-Management]
+categories: [Reputation-Management]
 author: derek
 ---
 
