@@ -3,7 +3,7 @@ layout: post
 title: "Subject Lines to Help Get Reviews"
 date: 2021-05-13
 tags: [How-To, Gathering-Reviews]
-categories: [OnlineReviews]
+categories: [Online-Reviews]
 author: derek
 ---
 
